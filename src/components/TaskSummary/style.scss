@@ -1,0 +1,33 @@
+@import "../../scss/sass-utils/variables";
+
+.task-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-created {
+    color: $blue;
+  }
+  &-completed {
+    color: $purple;
+  }
+}
+
+.style-default {
+  font-size: 0.87rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  .task-summary-count {
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: $gray-200;
+    background-color: $gray-400;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,50 @@
+@import "../../scss/sass-utils/variables";
+
+.input-container {
+  position: relative;
+}
+
+.input-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  transform: translate(0, -50%);
+  input {
+    width: 100%;
+    background-color: $gray-500;
+    border: 1px solid $gray-700;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: $gray-100;
+    &:focus {
+      outline: 1px solid $purple-dark;
+    }
+    &::placeholder {
+      font-weight: 400;
+      color: $gray-300;
+      line-height: 140%;
+    }
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 5.62rem;
+    height: 3.25rem;
+    background-color: $blue-dark;
+    color: $gray-100;
+    font-size: 0.87rem;
+    font-weight: bold;
+    line-height: 140%;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: $blue;
+    }
+  }
+}

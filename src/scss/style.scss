@@ -1,0 +1,24 @@
+@import "./base/reset";
+@import "./sass-utils/variables";
+
+.task-list {
+  margin-top: 1.5rem;
+}
+
+.empty-list {
+  border-top: 1px solid $gray-400;
+  margin-top: 1.5rem;
+}
+
+.empty-list-content {
+  text-align: center;
+  margin-top: 4rem;
+  svg {
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $gray-300;
+  }
+}
