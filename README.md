@@ -15,15 +15,15 @@ Este é um projeto de lista de tarefas simples, desenvolvido com **ViteJS** e **
 - **ViteJS**: Utilizado para o setup do projeto e ambiente de desenvolvimento rápido.
 - **TypeScript**: Fornece tipagem estática, auxiliando no desenvolvimento mais seguro e escalável.
 - **React**: Para a construção dos componentes e gerenciamento da interface.
-- **CSS**: Customizado para aplicar o tema dark e estilos dos componentes de interface.
+- **Scss**: Customizado para aplicar o tema dark e estilos dos componentes de interface.
 
 ## 📂 Estrutura de Pastas
 
 ```plaintext
 /src
-├── components      # Componentes reutilizáveis, como a lista de tarefas e botões
 ├── assets          # Arquivos estáticos, incluindo logo e ícones
-├── styles          # Arquivos de estilo (CSS ou SCSS)
+├── components      # Componentes reutilizáveis, como a lista de tarefas e botões
+├── scss            # Arquivos de estilo (SCSS)
 ├── App.tsx         # Componente principal do aplicativo
 └── main.tsx        # Ponto de entrada do aplicativo
 
