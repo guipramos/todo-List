@@ -1,7 +1,5 @@
 # Projeto de Lista de Tarefas (Todo App)
 
-![Todo App](./caminho-da-imagem.png) <!-- Substitua "caminho-da-imagem.png" pelo caminho correto da imagem no repositório -->
-
 Este é um projeto de lista de tarefas simples, desenvolvido com **ViteJS** e **TypeScript**. O objetivo deste aplicativo é permitir que o usuário adicione, marque como concluídas e exclua tarefas em uma interface amigável e minimalista.
 
 ## 📋 Funcionalidades
